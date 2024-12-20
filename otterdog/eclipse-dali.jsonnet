@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-dali') {
+orgs.newOrg('webtools.dali', 'eclipse-dali') {
   settings+: {
     description: "",
     name: "Dali Java Persistence Tools project",
